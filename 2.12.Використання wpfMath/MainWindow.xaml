@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2._12.Використання_wpfMath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2._12.Використання_wpfMath"
+        mc:Ignorable="d"
+        xmlns:math="clr-namespace:WpfMath.Controls;assembly=WpfMath"
+        Title="LaTeX-формули в WPF" Height="450" Width="800">
+    <Grid>
+        <!--Використовуючи бібліотеку WPF Math, можна відобразити складний математичний вираз на LaTeX-->
+        <!--Встановлюється WPF Math через NuGet Package Manager-->
+        <math:FormulaControl Formula="\int_a^b f(x) \, dx" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Grid>
+</Window>
