@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._8.UniformGrid_у_формі_з_клавіатурою"
         mc:Ignorable="d"
-        Title="Lection 3-8" Height="450" Width="800">
+        Title="Lection 3-7" Height="300" Width="500" MinHeight="250">
     <Grid>
         <!--Зовнішній контейнер-->
         <StackPanel>
             <!--Поле для відображення результатів введення-->
-            <TextBox x:Name="txtOut" Margin="5,20" />
+            <TextBox x:Name="txtOut" Margin="20" />
             <!--Крнтейнер 3х3 з кнопками-->
-            <UniformGrid Columns="3" Rows="3" Margin="150,50">
+            <UniformGrid Columns="3" Rows="3" Margin="20,20" VerticalAlignment="Stretch">
                 <Button Content="0" Click="Button_Click"/>
                 <Button Content="1" Click="Button_Click"/>
                 <Button Content="2" Click="Button_Click"/>

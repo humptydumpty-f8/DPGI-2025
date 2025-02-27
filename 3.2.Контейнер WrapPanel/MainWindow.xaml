@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._2.Контейнер_WrapPanel"
         mc:Ignorable="d"
-        Title="Lection 3-2" Height="450" Width="800">
+        Title="Lection 3-2" MinHeight="250" MaxWidth="600">
     <Grid>
         <!--Створення контейнера WrapPanel-->
         <!--Обмежується мінімальна та максимальна ширина елементів і задаються відступи-->
         <WrapPanel >
 
-            <Label Content="Login" Margin="5,10" MaxWidth="200" MinWidth="100"/>
-            <TextBox x:Name="txtLog" Text="" Margin="5" MaxWidth="200" MinWidth="100"/>
-            <Label Content="Password" Margin="5" MaxWidth="200" MinWidth="100"/>
-            <TextBox x:Name="txtPassw" Text="" Margin="5,0" MaxWidth="200" MinWidth="100"/>
-            <Button x:Name="btnOk" Content="Ok" Click="btnOk_Click" Margin="5,20" MaxWidth="200" MinWidth="100"/>
+            <Label Content="Login" Margin="5,10" Width="100" />
+            <TextBox x:Name="txtLog" Text="" Margin="5" Width="100"/>
+            <Label Content="Password" Margin="5,10" Width="100"/>
+            <TextBox x:Name="txtPassw" Text="" Margin="5,0" Width="100"/>
+            <Button x:Name="btnOk" Content="Ok" Click="btnOk_Click" Margin="5,20" Width="100"/>
 
         </WrapPanel>
     </Grid>

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._9.Програмне_керування_Grid"
         mc:Ignorable="d"
-        Title="Lection 3-9" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="Lection 3-8" Height="450" Width="800" Loaded="Window_Loaded"
+        MinHeight="350" MinWidth="350">
     <Grid x:Name="MainGrid" HorizontalAlignment="Center" VerticalAlignment="Center">
         
     </Grid>

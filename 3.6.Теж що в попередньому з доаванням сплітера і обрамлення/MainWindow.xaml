@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._7.Теж_що_в_попередньому_зддаванням_сплітера_і_обрамлення"
         mc:Ignorable="d"
-        Title="Lection 3-6" Height="450" Width="800">
+        Title="Lection 3-6" Height="350" Width="450" MinHeight="300" MinWidth="300">
     <Grid>
         <!--Зовнішній контейнер-->
         <DockPanel>
@@ -15,16 +15,16 @@
             </WrapPanel>
 
             <!--Основний вкладений контейнер 4x3 з обрамленням-->
-            <Border BorderThickness="2" Background="AliceBlue" BorderBrush="Black" CornerRadius="15">
-                <Grid VerticalAlignment="Center" Margin="50" ShowGridLines="False">
+            <Border BorderThickness="2" BorderBrush="Black" CornerRadius="15" Margin="5">
+                <Grid VerticalAlignment="Stretch" Margin="50" ShowGridLines="False">
                     <!--Задаємо 3 колонки-->
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <!--Колонка сплітера-->
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
+                    <Grid.RowDefinitions >
                         <!--Задаємо 4 рядки-->
                         <RowDefinition/>
                         <RowDefinition/>
@@ -33,18 +33,18 @@
                     </Grid.RowDefinitions>
                     <!--Обєднуємо дві комірки в одну і розміщуемо в ній заголовок-->
                     <Label Content="Forms parameters" Grid.Row="0" Grid.Column="0" 
-                       Grid.ColumnSpan="3" HorizontalAlignment="Center" FontWeight="ExtraBold"/>
+                       Grid.ColumnSpan="3" HorizontalAlignment="Center" FontWeight="ExtraBold" FontSize="14"/>
                     <!--Розміщуємо інші елементи в комірках сітки-->
-                    <Label Content="Title" Grid.Row="1" Grid.Column="0"/>
+                    <Label Content="Title" Grid.Row="1" Grid.Column="0" FontWeight="Bold"/>
                     <TextBox x:Name="txtTitle" Text="New title" Grid.Row="1" Grid.Column="2"/>
-                    <Label Content="Width" Grid.Row="2" Grid.Column="0"/>
+                    <Label Content="Width" Grid.Row="2" Grid.Column="0" FontWeight="Bold"/>
                     <TextBox x:Name="txtWidth" Text="400" Grid.Row="2" Grid.Column="2"/>
-                    <Label Content="Heigt" Grid.Row="3" Grid.Column="0"/>
+                    <Label Content="Heigt" Grid.Row="3" Grid.Column="0" FontWeight="Bold"/>
                     <TextBox x:Name="txtHeigt" Text="300" Grid.Row="3" Grid.Column="2"/>
                     <!--Сплітеру необхідно задати Alignment="Stretch" і Width-->
-                    <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" ShowsPreview="False"
+                    <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="3"
                               VerticalAlignment="Stretch" HorizontalAlignment="Center"
-                              Width="4"/>
+                              Width="4" Cursor="SizeWE"/>
 
                 </Grid>
             </Border>

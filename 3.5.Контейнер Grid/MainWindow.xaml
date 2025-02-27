@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._6.Контейнер_Grid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Lection 3-5" Height="350" Width="450" MinHeight="300" MinWidth="300">
     <Grid>
         <!--Зовнішній контейнер-->
         <DockPanel>
@@ -15,28 +15,28 @@
             </WrapPanel>
 
             <!--Основний вкладений контейнер 4x2-->
-            <Grid VerticalAlignment="Center" Margin="50">
+            <Grid VerticalAlignment="Stretch" Margin="50">
                 <!--Задаємо 2 колонки-->
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <!--Задаємо 4 рядки-->
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <!--Обєднуємо дві комірки в одну і розміщуемо в ній заголовок-->
                 <Label Content="Forms parameters" Grid.Row="0" Grid.Column="0" 
-                       Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="ExtraBold"/>
+                       Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="ExtraBold" FontSize="14"/>
                 <!--Розміщуємо інші елементи в комірках сітки-->
-                <Label Content="Title" Grid.Row="1" Grid.Column="0"/>
+                <Label Content="Title" Grid.Row="1" Grid.Column="0" FontWeight="Bold"/>
                 <TextBox x:Name="txtTitle" Text="New title" Grid.Row="1" Grid.Column="1"/>
-                <Label Content="Width" Grid.Row="2" Grid.Column="0"/>
+                <Label Content="Width" Grid.Row="2" Grid.Column="0" FontWeight="Bold"/>
                 <TextBox x:Name="txtWidth" Text="400" Grid.Row="2" Grid.Column="1"/>
-                <Label Content="Heigt" Grid.Row="3" Grid.Column="0"/>
+                <Label Content="Heigt" Grid.Row="3" Grid.Column="0" FontWeight="Bold"/>
                 <TextBox x:Name="txtHeigt" Text="300" Grid.Row="3" Grid.Column="1"/>
 
             </Grid>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_4._1.Вставка_зображення_як_фарбуванння</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="happyface.jpeg" />
+    <None Remove="photo_2025-02-21_10-59-17.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="happyface.jpeg" />
+    <Resource Include="photo_2025-02-21_10-59-17.jpg" />
+  </ItemGroup>
+
+</Project>

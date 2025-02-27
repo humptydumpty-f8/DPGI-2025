@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._1.StackPanel_у_формі_автентифікації"
         mc:Ignorable="d"
-        Title="Lection 3-1" Height="350" Width="400" >
-    <Grid >
+        Title="Lection 3-1" Height="450" Width="500" 
+        MinWidth="250"
+        MinHeight="200"
+        MaxWidth="400"
+        MaxHeight="400">
+    <Grid>
         <!--Створення контейнера StackPanel-->
-        <StackPanel MaxWidth="200" MaxHeight="250">
+        <StackPanel Background="Aqua" Width="200" Height="150">
             <Label  Content="Login"/>
             <TextBox  x:Name="txtLog" Text=""/>
             <Label  Content="Password"/>

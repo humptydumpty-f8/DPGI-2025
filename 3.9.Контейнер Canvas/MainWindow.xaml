@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._10.Контейнер_Canvas"
         mc:Ignorable="d"
-        Title="Lection 3-10" Height="250" Width="300">
+        Title="Lection 3-9" Height="189" Width="238" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid >
         <Canvas Background= "CadetBlue" >
             <Rectangle Canvas.Left="10" Canvas.Top="10" Height="50" Width="200" Fill="Blue" />

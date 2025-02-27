@@ -28,23 +28,25 @@ namespace _3._12.Програмне_керування_Canvas
             canvasPanel = new Canvas();
             canvasPanel.Background = new SolidColorBrush(Colors.RosyBrown);
             
-            //Create orange Rectangle
+    //Create orange Rectangle
             Rectangle orangeRectangle = new Rectangle();//obj
             //Properties sets
             orangeRectangle.Width = 150;
-            orangeRectangle.Height = 150;
-            orangeRectangle.Stroke = new SolidColorBrush(Colors.Black);
+            orangeRectangle.Height = 150;      
             orangeRectangle.Fill = new SolidColorBrush(Colors.Orange);
             Canvas.SetLeft(orangeRectangle, 30);
             Canvas.SetTop(orangeRectangle, 30);
             canvasPanel.Children.Add(orangeRectangle); //Add it
 
-            //Create pink Rectangle
+    //Create pink Rectangle
             Rectangle pinkRectangle = new Rectangle();
-            pinkRectangle.Width = 150;
-            pinkRectangle.Height = 150;
-            pinkRectangle.Stroke = new SolidColorBrush(Colors.Black);
-            pinkRectangle.Fill = new SolidColorBrush(Colors.HotPink);
+            pinkRectangle.Width = 250;
+            pinkRectangle.Height = 250;
+            // Створюємо ImageBrush та задаємо шлях до зображення
+            ImageBrush imageBrush = new ImageBrush();
+            imageBrush.ImageSource = new BitmapImage(new Uri("C:\\Users\\yu_ta\\source\\repos\\DPGI-2025\\3.11.Програмне керування Canvas\\Photo\\photo1.jpg"));
+            // Заповнюємо Rectangle зображенням
+            pinkRectangle.Fill = imageBrush;            
             Canvas.SetLeft(pinkRectangle, 70);
             Canvas.SetTop(orangeRectangle, 70);
             canvasPanel.Children.Add(pinkRectangle);

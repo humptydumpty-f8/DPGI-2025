@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._11.Canvas_з_прямокутниками"
         mc:Ignorable="d"
-        Title="Lection 3-10" Height="450" Width="800">
+        Title="Lection 3-10" Height="450" Width="800" MinHeight="200">
     <Grid>
-        <Canvas x:Name="myCanvas" Background="Beige" MouseLeftButtonDown="myCanvas_MouseLeftButtonDown" />
+        <Border BorderThickness="5" BorderBrush="Aquamarine" Margin="10" CornerRadius="15" >
+            <Canvas x:Name="myCanvas" Background="Beige" MouseLeftButtonDown="myCanvas_MouseLeftButtonDown" />
+        </Border>
     </Grid>
 </Window>
