@@ -24,8 +24,8 @@
                 </Grid.ColumnDefinitions>
                 <Label Margin="10" Target="{Binding ElementName=txtLogin}">Lo_gin</Label>
                 <Label Margin="10" Grid.Row="1" Target="{Binding ElementName=password}">Pass_word</Label>
-                <TextBox Margin="10" x:Name="txtLogin" Grid.Column="1" Text=" " MinWidth="200"/>
-                <PasswordBox Margin="10" x:Name="password" Grid.Row="1" Grid.Column="1"  MinWidth="200"></PasswordBox>
+                <TextBox Margin="10" x:Name="txtLogin" Grid.Column="1" Text=" " MinWidth="200" ToolTip="only Latin characters"/>
+                <PasswordBox Margin="10" x:Name="password" Grid.Row="1" Grid.Column="1"  MinWidth="200" ToolTip="at least 8 characters"></PasswordBox>
 
             </Grid>
         </DockPanel>

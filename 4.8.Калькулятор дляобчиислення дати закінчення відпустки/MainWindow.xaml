@@ -26,7 +26,7 @@
             </GroupBox>
 
             <GroupBox Header="Finish"  >
-                <DatePicker Name="dpFinish"></DatePicker>
+                <DatePicker Name="dpFinish" IsEnabled="False" Foreground="Green" FontWeight="Bold"></DatePicker>
             </GroupBox>
 
         </StackPanel>

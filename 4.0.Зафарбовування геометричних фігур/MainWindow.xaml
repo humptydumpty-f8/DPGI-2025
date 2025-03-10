@@ -19,14 +19,6 @@
                 </Canvas.Background>
             </Canvas>
         </Grid>
-        <!--<StackPanel VerticalAlignment="Center" >
-            <Rectangle Width="250" Height="50" >
-                <Rectangle.Fill>
-                    <SolidColorBrush Color="Yellow">
-                    </SolidColorBrush>
-                </Rectangle.Fill>
-            </Rectangle>
-            <Rectangle Width="250" Height="50" Fill="#FF0000FF" />
-        </StackPanel>-->
+        
     </Grid>
 </Window>

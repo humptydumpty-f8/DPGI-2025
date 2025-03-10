@@ -14,7 +14,7 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <TextBox x:Name="txtBox" TextWrapping="Wrap" Grid.Row="0" FontFamily="Bernard MT" SpellCheck.IsEnabled="True" xml:lang="uk-UA">Some text</TextBox>
+            <TextBox x:Name="txtBox" TextWrapping="Wrap" Grid.Row="0" FontFamily="Bernard MT" SpellCheck.IsEnabled="True" xml:lang="uk-UA" Cursor="Hand">Some text</TextBox>
 
             <!--Вставляємо розділювач-->
             <GridSplitter Grid.Row="1" Height="3" ShowsPreview="False" HorizontalAlignment="Stretch" VerticalAlignment="Center"></GridSplitter>
@@ -38,7 +38,7 @@
                     <GroupBox Header="Accept Enter/Tab" BorderBrush="Black">
                         <StackPanel>
                             <CheckBox x:Name="chkEnter" Checked="CheckBox_Checked">E_nter</CheckBox>
-                            <CheckBox x:Name="chkTab" Checked="CheckBox_Checked">Ta_b</CheckBox>
+                            <CheckBox x:Name="chkTab"  Click="CheckBox_Checked">Ta_b</CheckBox>
                         </StackPanel>
                     </GroupBox>
                 </StackPanel>

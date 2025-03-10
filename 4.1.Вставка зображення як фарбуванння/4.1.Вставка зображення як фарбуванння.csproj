@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="happyface.jpeg" />
+    <Resource Include="Images\happyface.jpeg" />
     <Resource Include="photo_2025-02-21_10-59-17.jpg" />
   </ItemGroup>
 
