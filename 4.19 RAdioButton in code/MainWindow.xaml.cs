@@ -24,9 +24,19 @@ namespace _42_RAdioButton_in_code
         {
             InitializeComponent();
 
-            RadioButton rb = new RadioButton { IsChecked = false, GroupName = "Languages", Content = "WPF" };
+            RadioButton rb = new RadioButton { IsChecked = true,  Content = "WPF" };
+            RadioButton rb1 = new RadioButton { IsChecked = false, Content = "WinForms" };
+            RadioButton rb2 = new RadioButton { IsChecked = false,  Content = "ASP.NET" };
             rb.Checked += Rb_Checked;
-            grd.Children.Add(rb);
+
+            StackPanel stackPanel = new StackPanel();
+            stackPanel.Margin = new Thickness(10,5,5,5);
+
+            stackPanel.Children.Add(rb);
+            stackPanel.Children.Add(rb1);
+            stackPanel.Children.Add(rb2);
+
+            grid.Children.Add(stackPanel);
         }
 
         private void Rb_Checked(object sender, RoutedEventArgs e)

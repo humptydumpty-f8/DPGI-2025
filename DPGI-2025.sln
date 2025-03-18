@@ -135,6 +135,38 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.12. Використан�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.14. Зміна форми вікна", "5.14. Зміна форми вікна\5.14. Зміна форми вікна.csproj", "{209C83FA-1270-4500-B87C-DAFAD023E396}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.5. Простий ListBox в XAML", "4.5. Простий ListBox в XAMl\4.5. Простий ListBox в XAML.csproj", "{9B7E88B0-7F78-4D55-B321-FBB293ED110F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1.Простий приклад привязки (TextBox toTextBlock)", "6.1 Простий приклад привязки (TextBox toTextBlock)\6.1.Простий приклад привязки (TextBox toTextBlock).csproj", "{1F8770CC-A7E0-43B7-A756-03155650C95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.Створення привязки в коді", "6.2 Створення привязки в коді\6.2.Створення привязки в коді.csproj", "{2280E93C-8FCF-4062-A853-E92E2B83D254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.3.Вибір кольору за допомогою ComboBox", "6.3 Вибір кольору за допомогою ComboBox\6.3.Вибір кольору за допомогою ComboBox.csproj", "{39B86337-3E6D-4665-9E14-2B6D8056E8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.4.Альтернативний спосіб привязки в xaml", "6.4 Альтернативний спосіб привязки в xaml\6.4.Альтернативний спосіб привязки в xaml.csproj", "{B1536BD4-FE67-4316-B916-CF0A3182B7CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.5.Простий приклад двонаправленого звязку", "6.5 Простий приклад двонаправленого звязку\6.5.Простий приклад двонаправленого звязку.csproj", "{175A6E2E-FA7B-444B-8CC4-AE053D1E61CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.6.Привязка статичних обєктів", "6.6 Привязка статичних обєктів\6.6.Привязка статичних обєктів.csproj", "{2EB5D8BE-B3D6-4120-8606-4BE47B16954B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.7.Привязка статичних ресурсів", "6.7 Привязка статичних ресурсів\6.7.Привязка статичних ресурсів.csproj", "{5F125A1E-4072-406B-B919-5DBEEFC6E17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.8.Звязок в самому елементі (поле що змінює свій фон)", "6.8 Звязок в самому елементі (поле що змінює свій фон)\6.8.Звязок в самому елементі (поле що змінює свій фон).csproj", "{724E575B-32D0-4EF9-8784-FE841356F05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.9.Привязка до властивостей контейнера", "6.9 Привязка до властивостей контейнера\6.9.Привязка до властивостей контейнера.csproj", "{2B8545E6-1954-452D-8CA9-577C643266A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.10.Теж саме з іншим синтаксисом", "6.10 Теж саме з іншим синтаксисом\6.10.Теж саме з іншим синтаксисом.csproj", "{703D20A1-36D3-490F-8DF3-3A46290956FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.11.Привязка обєкта в коді", "6.11 Привязка обєкта в коді\6.11.Привязка обєкта в коді.csproj", "{A704EEED-8D32-44AA-9358-51E3684C7052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.12.Привязка обєкта в xaml", "6.12 Привязка обєкта в xaml\6.12.Привязка обєкта в xaml.csproj", "{37606725-FD77-4DE0-AD95-926EB3DCE283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.13.Привязка списку", "6.13 Привязка списку\6.13.Привязка списку.csproj", "{B552A9F6-D42E-4A5B-99F9-852EA887A2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.14. Ілюстрація використання DataContext", "6.14 Ілюстрація використання DataContext\6.14. Ілюстрація використання DataContext.csproj", "{2CCF37D9-54AC-4CB5-A754-35488124185C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.15. Стилізація списків (ItemContainerStyle)", "5.15. Стилізація списків (ItemContainerStyle)\5.15. Стилізація списків (ItemContainerStyle).csproj", "{DCC40800-95AB-47AB-8CF2-5461248C3D41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +437,70 @@ Global
 		{209C83FA-1270-4500-B87C-DAFAD023E396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209C83FA-1270-4500-B87C-DAFAD023E396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209C83FA-1270-4500-B87C-DAFAD023E396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7E88B0-7F78-4D55-B321-FBB293ED110F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7E88B0-7F78-4D55-B321-FBB293ED110F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7E88B0-7F78-4D55-B321-FBB293ED110F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7E88B0-7F78-4D55-B321-FBB293ED110F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8770CC-A7E0-43B7-A756-03155650C95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8770CC-A7E0-43B7-A756-03155650C95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8770CC-A7E0-43B7-A756-03155650C95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8770CC-A7E0-43B7-A756-03155650C95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2280E93C-8FCF-4062-A853-E92E2B83D254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2280E93C-8FCF-4062-A853-E92E2B83D254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2280E93C-8FCF-4062-A853-E92E2B83D254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2280E93C-8FCF-4062-A853-E92E2B83D254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B86337-3E6D-4665-9E14-2B6D8056E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B86337-3E6D-4665-9E14-2B6D8056E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B86337-3E6D-4665-9E14-2B6D8056E8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B86337-3E6D-4665-9E14-2B6D8056E8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1536BD4-FE67-4316-B916-CF0A3182B7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1536BD4-FE67-4316-B916-CF0A3182B7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1536BD4-FE67-4316-B916-CF0A3182B7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1536BD4-FE67-4316-B916-CF0A3182B7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175A6E2E-FA7B-444B-8CC4-AE053D1E61CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175A6E2E-FA7B-444B-8CC4-AE053D1E61CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175A6E2E-FA7B-444B-8CC4-AE053D1E61CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175A6E2E-FA7B-444B-8CC4-AE053D1E61CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB5D8BE-B3D6-4120-8606-4BE47B16954B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB5D8BE-B3D6-4120-8606-4BE47B16954B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB5D8BE-B3D6-4120-8606-4BE47B16954B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB5D8BE-B3D6-4120-8606-4BE47B16954B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F125A1E-4072-406B-B919-5DBEEFC6E17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F125A1E-4072-406B-B919-5DBEEFC6E17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F125A1E-4072-406B-B919-5DBEEFC6E17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F125A1E-4072-406B-B919-5DBEEFC6E17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724E575B-32D0-4EF9-8784-FE841356F05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724E575B-32D0-4EF9-8784-FE841356F05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724E575B-32D0-4EF9-8784-FE841356F05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724E575B-32D0-4EF9-8784-FE841356F05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8545E6-1954-452D-8CA9-577C643266A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8545E6-1954-452D-8CA9-577C643266A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8545E6-1954-452D-8CA9-577C643266A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8545E6-1954-452D-8CA9-577C643266A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703D20A1-36D3-490F-8DF3-3A46290956FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703D20A1-36D3-490F-8DF3-3A46290956FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703D20A1-36D3-490F-8DF3-3A46290956FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703D20A1-36D3-490F-8DF3-3A46290956FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A704EEED-8D32-44AA-9358-51E3684C7052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A704EEED-8D32-44AA-9358-51E3684C7052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A704EEED-8D32-44AA-9358-51E3684C7052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A704EEED-8D32-44AA-9358-51E3684C7052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37606725-FD77-4DE0-AD95-926EB3DCE283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37606725-FD77-4DE0-AD95-926EB3DCE283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37606725-FD77-4DE0-AD95-926EB3DCE283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37606725-FD77-4DE0-AD95-926EB3DCE283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B552A9F6-D42E-4A5B-99F9-852EA887A2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B552A9F6-D42E-4A5B-99F9-852EA887A2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B552A9F6-D42E-4A5B-99F9-852EA887A2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B552A9F6-D42E-4A5B-99F9-852EA887A2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCF37D9-54AC-4CB5-A754-35488124185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCF37D9-54AC-4CB5-A754-35488124185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCF37D9-54AC-4CB5-A754-35488124185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCF37D9-54AC-4CB5-A754-35488124185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC40800-95AB-47AB-8CF2-5461248C3D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC40800-95AB-47AB-8CF2-5461248C3D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC40800-95AB-47AB-8CF2-5461248C3D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC40800-95AB-47AB-8CF2-5461248C3D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

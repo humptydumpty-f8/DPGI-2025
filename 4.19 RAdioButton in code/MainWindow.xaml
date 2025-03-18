@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:_42_RAdioButton_in_code"
         mc:Ignorable="d"
         Title="Lection 4-2" Height="450" Width="800">
-    <Grid x:Name="grd">
+    <Grid x:Name="grid">
         
     </Grid>
 </Window>

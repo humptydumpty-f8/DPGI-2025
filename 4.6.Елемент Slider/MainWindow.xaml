@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_4._6.Елемент_Slider"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Lection 4-6" Height="450" Width="800">
     <Grid>
         <DockPanel >
 
@@ -23,11 +23,12 @@
                         Minimum="10" 
                         Maximum="32" 
                         TickFrequency="10" 
-                        TickPlacement="Both" 
+                        TickPlacement="TopLeft" 
                         IsSnapToTickEnabled="False"
                         SelectionStart="10" 
                         IsSelectionRangeEnabled="True"
                         Value="15"
+                        Ticks="10.,20.,30."
                         ValueChanged="sldSize_ValueChanged"></Slider>
             </GroupBox>
         </DockPanel>

@@ -1,0 +1,9 @@
+﻿<Application x:Class="_5._15._Стилізація_списків__ItemContainerStyle_.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_5._15._Стилізація_списків__ItemContainerStyle_"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
