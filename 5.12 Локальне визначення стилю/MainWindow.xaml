@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Lection 5-0" Height="450" Width="800">
     <Grid >
-        <TextBlock xml:space="preserve" TextWrapping="Wrap" VerticalAlignment="Center" Margin="20"  Text=
-                   "Панграма – це речення, що містить всі букви абетки. Ось один з прикладів української панграми:
-                   &quot;Любий фахівець їздить човном щодня за ґаздуванням&quot;.">
-            <TextBlock.Style>
+        <TextBlock xml:space="preserve" TextWrapping="Wrap" VerticalAlignment="Center" Margin="20" 
+                   Text="Панграма – це речення, що містить всі букви абетки. Ось один з прикладів української панграми: &quot;Любий фахівець їздить човном щодня за ґаздуванням&quot;.">
+        
+        <TextBlock.Style>
                 <Style>
                     <Setter Property="Control.FontFamily" Value="Time New Roman"/>
                     <Setter Property="Control.FontSize" Value="18"></Setter>

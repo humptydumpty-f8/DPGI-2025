@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Lection 6-13" Height="450" Width="800">
     <StackPanel>
-        <TextBlock Margin="15" FontSize="24">Persons</TextBlock>
-        <ListBox x:Name="lbx" Margin="15" FontSize="12" ItemsSource="{Binding}" SelectionChanged="ListBox_SelectionChanged"/>
+        <TextBlock Margin="15" FontSize="24" HorizontalAlignment="Center">Persons</TextBlock>
+        <ListBox x:Name="lbx" Margin="15" FontSize="12" HorizontalAlignment="Center" ItemsSource="{Binding}" SelectionChanged="ListBox_SelectionChanged"/>
     </StackPanel>
 </Window>
