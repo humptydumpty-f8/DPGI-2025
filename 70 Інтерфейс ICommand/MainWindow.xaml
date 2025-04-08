@@ -14,8 +14,15 @@
     </Window.CommandBindings>
     
     <Grid>
-        <StackPanel>
-            <Button Command="{x:Static local:MainWindow.CustomRoutedCommand}" >Custom Routed Command</Button>
-        </StackPanel>
+        <Menu  VerticalAlignment="Top" MinHeight="25">
+            <MenuItem Header="File">
+                <MenuItem Header="Моя команда" Command="local:MainWindow.CustomRoutedCommand"/>
+            </MenuItem>
+        </Menu>
+        
+        
+            <Button x:Name="button" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Command="{x:Static local:MainWindow.CustomRoutedCommand}" >Custom Routed Command</Button>
+        
     </Grid>
 </Window>

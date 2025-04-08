@@ -1,0 +1,9 @@
+﻿<Application x:Class="_7._0.Клас_команд_RoutedCommand.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_7._0.Клас_команд_RoutedCommand"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

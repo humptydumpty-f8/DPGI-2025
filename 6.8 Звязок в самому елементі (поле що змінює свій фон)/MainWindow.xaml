@@ -10,7 +10,7 @@
         <Border Margin="100" BorderBrush="Silver" BorderThickness="3" Padding="1">
             <!--Привязка в самому контролі-->
             <!--В текстовому полі відображається код кольору фону, а змінивши код отримуємо інший колір-->
-            <TextBox Text="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Background, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+            <TextBox Text="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Width, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                      Background="BurlyWood"
                      FontSize="32"/>
         </Border>

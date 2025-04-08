@@ -21,11 +21,20 @@ namespace _70_Інтерфейс_ICommand
     public partial class MainWindow : Window
     {
         //1-визначення команди
-        public static RoutedCommand CustomRoutedCommand = new RoutedCommand();
+        public static RoutedCommand CustomRoutedCommand = new RoutedCommand
+            (
+                "MyCommand",//імя команди
+                typeof(MainWindow),//елемент-власник
+                new InputGestureCollection()
+                {
+                    new KeyGesture(Key.F1, ModifierKeys.Alt)
+                }
+            );
 
         public MainWindow()
         {
             InitializeComponent();
+            button.Content = CustomRoutedCommand.Name;
         }
         
         //2-створення обробників подій

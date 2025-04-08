@@ -32,7 +32,7 @@ namespace WpfApp22
 
         private void HelpCommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
-            e.CanExecute = true;
+            //e.CanExecute = true;
         }
     }
 }
