@@ -219,6 +219,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.8.Теж саме з Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.9.Теж що в 8.1 з валідацією", "89 Теж що в 8.1 з валідацією\8.9.Теж що в 8.1 з валідацією.csproj", "{2EB34EAC-C755-46EF-B5C6-0ECA0192826D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1.Відображення таблиці БД в DataGrid", "91 Відображення таблиці БД в DataGrid\9.1.Відображення таблиці БД в DataGrid.csproj", "{3A2057C7-C266-4362-B60C-B671CEC14C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.2.Модель EDM", "92 Модель EDM\9.2.Модель EDM.csproj", "{2A5D9D40-84D6-4A0E-BF84-C05C77925F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -657,6 +661,14 @@ Global
 		{2EB34EAC-C755-46EF-B5C6-0ECA0192826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB34EAC-C755-46EF-B5C6-0ECA0192826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB34EAC-C755-46EF-B5C6-0ECA0192826D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2057C7-C266-4362-B60C-B671CEC14C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2057C7-C266-4362-B60C-B671CEC14C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2057C7-C266-4362-B60C-B671CEC14C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2057C7-C266-4362-B60C-B671CEC14C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5D9D40-84D6-4A0E-BF84-C05C77925F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5D9D40-84D6-4A0E-BF84-C05C77925F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5D9D40-84D6-4A0E-BF84-C05C77925F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5D9D40-84D6-4A0E-BF84-C05C77925F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
