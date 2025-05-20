@@ -18,7 +18,7 @@
                     <Separator />
                     <MenuItem Header="Se_nd">
                         <MenuItem Header="Disk" x:Name="sendToDisk" IsCheckable="True" Checked="sendToDisk_Checked"/>
-                        <MenuItem Header="Fax" x:Name="sendToFax" IsCheckable="True" Checked="sendToFax_Checked"/>
+                        <MenuItem Header="Fax" x:Name="sendToFax" IsCheckable="False" Checked="sendToFax_Checked"/>
                     </MenuItem>
                 </MenuItem>
                 <MenuItem Header="_Edit">
